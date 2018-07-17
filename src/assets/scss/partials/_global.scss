@@ -1,0 +1,188 @@
+
+body {
+	margin: 5;
+	font-size: 30px;
+   }
+	.header {
+	background-color: #f1f1f1;
+	padding: 20px;
+	text-align: center;
+
+	
+   }
+	#navbar {
+	overflow: hidden;
+	background-color: #b31919;
+   }
+	#navbar a {
+	float: right;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 19px;
+	font-style: bold;
+   }
+	#navbar a:hover {
+	background-color: #ddd;
+	color: black;
+   }
+	#navbar a.active {
+	background-color: #4CAF50;
+	color: white;
+   }
+	.content {
+	padding: 16px;
+   }
+	.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+   }
+	.sticky + .content {
+	padding-top: 60px;
+   }
+  
+   h1 {
+	  font-family: Galada;
+	  font-size: 2em;
+	  text-shadow: 3px 3px 5px #b58803;
+   }
+  
+   .worx {
+	  font-family: Roboto;
+	  font-size: 20px;
+	  margin-bottom: 0;
+	  margin-top: 0;
+	
+   }
+  
+   h2 {
+	text-shadow: 4px 2px 4px #b58803;
+   }
+  
+  .button {
+	  background-color: #b31919;
+	  border: none;
+	  color:white;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 25px;
+	  margin: 4px 2px;
+		border-radius: 8px;
+		
+   }
+  
+   .one {
+	  padding: 80px;
+	  border: 2px solid, #b58803;
+   }
+  
+   .choice {
+	  font-size: 25px;
+   }
+   .fa {
+	padding: 15px;
+	font-size: 25px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	margin: 3px 3px;
+	
+  }
+   .fa:hover {
+	opacity: 0.8;
+  }
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color:white;
+  }
+  
+  .fa-google {
+	background: #dd4b39;
+	color: white;
+  
+  }
+  
+  .fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  
+  .fa-youtube {
+	background: #bb0000;
+	color: white;
+  }
+  
+  .fa-snapchat-ghost {
+	background:#fffc00;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+ 
+	}
+	html {
+		box-sizing: border-box;
+	}
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+	
+	.column {
+		float: left;
+		width: 33.3%;
+		margin-bottom: 16px;
+		padding: 0 8px;
+	}
+	
+	@media screen and (max-width: 650px) {
+		.column {
+			width: 100%;
+			display: block;
+		}
+	}
+	
+	.card {
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	}
+	
+	.container {
+		padding: 0 16px;
+		border: 10%;
+	}
+	
+	.container::after, .row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	
+	.title {
+		color: grey;
+	}
+	
+	.press{
+		border: none;
+		outline: 0;
+		display: inline-block;
+		padding: 8px;
+		color: white;
+		background-color: #000;
+		text-align: center;
+		cursor: pointer;
+		width: 100%;
+		font-size: 25px;
+	}
+	
+	.button:hover {
+		background-color: #555;
+	}
