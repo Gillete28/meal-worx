@@ -66,16 +66,3 @@ $ npm run build:prod
 * extract-text-webpack-plugin
 * html-webpack-plugin
 
-# mealworx
-# mealworx
-# mealworx
-# meal-worx
-# meal-worx
-# mealworx # mealworx
-# mealworx
-# mealworx
-# mealworx
-# mealworx
-# mealworks
-# mealworks
-# mealworks
